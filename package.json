@@ -3,6 +3,9 @@
     "devkit-plugin-builder": "git+https://github.com/gameclosure/devkit-plugin-builder.git",
     "express": "^4.13.4"
   },
+  "devDependencies": {
+	"rimraf": "latest"
+  },
   "devkit": {
     "pluginBuilder": {
       "generic": [
@@ -15,7 +18,7 @@
   "scripts": {
     "build": "./node_modules/devkit-plugin-builder/bin/pluginBuilder.js .",
     "watch": "./node_modules/devkit-plugin-builder/bin/pluginBuilder.js --watch .",
-    "clean": "rm -rf build",
+    "clean": "rimraf build",
     "serve": "node server/index.js"
   }
 }
