@@ -16,8 +16,8 @@
     }
   },
   "scripts": {
-    "build": "./node_modules/devkit-plugin-builder/bin/pluginBuilder.js .",
-    "watch": "./node_modules/devkit-plugin-builder/bin/pluginBuilder.js --watch .",
+    "build": "node ./node_modules/devkit-plugin-builder/bin/pluginBuilder.js .",
+    "watch": "node ./node_modules/devkit-plugin-builder/bin/pluginBuilder.js --watch .",
     "clean": "rimraf build",
     "serve": "node server/index.js"
   }
