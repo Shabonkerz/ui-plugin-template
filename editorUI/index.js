@@ -1,4 +1,9 @@
-console.log('hello');
+import angular from 'angular';
 
-var main = document.getElementById('main');
-main.innerHTML = 'beep boop';
+// codemirror doesnt play nice with our concoction of importers, use old require syntax
+let CodeMirror = require('codemirror');
+import 'codemirror/mode/javascript/javascript';
+
+window.CodeMirror = CodeMirror;
+
+import './js/CodemirrorCollab';

@@ -1,0 +1,6 @@
+{
+  "name": "codemirror-collab",
+  "dependencies": {
+    "angular-ui-codemirror": "~0.3.0"
+  }
+}

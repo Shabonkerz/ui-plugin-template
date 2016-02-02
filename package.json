@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "angular": "^1.4.9",
+    "codemirror": "^5.11.0",
     "devkit-plugin-builder": "git+https://github.com/gameclosure/devkit-plugin-builder.git",
     "express": "^4.13.4"
   },
