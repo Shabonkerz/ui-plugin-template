@@ -1,10 +1,11 @@
 {
   "dependencies": {
+    "bower": "^1.7.7",
     "devkit-plugin-builder": "git+https://github.com/gameclosure/devkit-plugin-builder.git",
     "express": "^4.13.4"
   },
   "devDependencies": {
-	"rimraf": "latest"
+    "rimraf": "latest"
   },
   "devkit": {
     "pluginBuilder": {
