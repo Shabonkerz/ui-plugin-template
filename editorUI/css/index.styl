@@ -6,3 +6,15 @@ body
   font-family Helvetica
   color #333
   background-color #eee
+
+
+.my-widget
+	width 4px
+	height 1em
+	background-color red
+	z-index 100
+	animation blinker 1s linear infinite;
+
+
+@keyframes blinker
+  50% { opacity: 0.0; }
